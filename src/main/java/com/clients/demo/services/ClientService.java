@@ -15,7 +15,7 @@ public class ClientService {
     public List<Client> getAllclients(){
         clients.add(new Client(1L , "Jabran" , "Morocco")) ;
         clients.add(new Client(2L , "Mohsin" , "Morocco")) ;
-        //clients.add(new Client(3L , "Omar" , "Morocco")) ;
+        clients.add(new Client(3L , "Omar" , "Morocco")) ;
         return clients ;
     }
 }
