@@ -16,7 +16,7 @@ public class ClientService {
         clients.add(new Client(1L , "Jabran" , "Maroc")) ;
         clients.add(new Client(2L , "Mohsin" , "Tunis")) ;
         clients.add(new Client(3L , "Omar" , "Maroc")) ;
-        //clients.add(new Client(4L , "Rachid" , "Egypt")) ;
+        clients.add(new Client(4L , "Rachid" , "Egypt")) ;
        //clients.add(new Client(5L , "Mohamed" , "Maroc")) ;
 
         return clients ;
